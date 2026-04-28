@@ -57,6 +57,8 @@ NaqaaWebsite/
 │ script.js
 │
 └── images/
+|_logo1
+|_image1
 
 
 ---
