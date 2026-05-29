@@ -42,7 +42,6 @@ This project focuses on the redesign and development of a professional website f
 ---
 
 ## Project Structure
-
 NAQAA_PROJECT/
 │
 ├── index.html
@@ -92,30 +91,32 @@ To run this project locally:
 ## Changelog
 
 ### Part 1 Feedback Improvements
-- Added hero image to homepage.
-- Improved HTML comments and code readability.
-- Standardised heading hierarchy across all pages.
-- Fixed navigation links between pages.
-- Moved styling from inline CSS to external stylesheet.
+- Part 1 feedback noted the homepage lacked visual engagement — added hero image (image1.jpg) to address this.
+- Part 1 feedback highlighted poor code readability — improved HTML comments and structured code sections for clarity.
+- Part 1 feedback identified inconsistent heading levels across pages — standardised heading hierarchy (h1 → h2 → h3) on all pages.
+- Part 1 feedback noted broken navigation links — fixed all internal navigation links to correctly connect all five pages.
+- Part 1 feedback flagged inline CSS as poor practice — moved all styling from inline attributes to the external stylesheet (style.css).
 
-## Part 2 Development
+---
 
-- Created and linked an external stylesheet (style.css) to all website pages.
-- Implemented a responsive navigation menu across the website.
-- Added media queries for tablet (768px) and mobile (480px) screen sizes.
-- Applied a consistent colour scheme using Naqaa Foundation branding colours.
-- Added typography styling for headings, paragraphs, navigation menus, and lists.
-- Styled buttons, forms, sections, and navigation elements for a professional appearance.
-- Added hover, focus, and active pseudo-class effects to improve user interaction.
-- Made all images responsive using responsive image techniques and max-width properties.
-- Added additional images to the Home and About Us pages to improve visual appeal.
-- Implemented a scrolling donation announcement banner in the header section using a modern CSS animation.
-- Added a Google Maps location section to the Contact page.
-- Expanded content on the Home, About Us, Services, Contact, and Enquiry pages.
-- Improved accessibility through semantic HTML structure and descriptive alt text for images.
-- Enhanced SEO using meta descriptions, keywords, and author tags.
-- Tested and optimized the website for desktop, tablet, and mobile devices.
-- Corrected issues identified in Part 1 feedback and documented all improvements.
+### Part 2 Development
+- Created and linked an external stylesheet (style.css) to all five website pages to ensure consistent styling.
+- Implemented a responsive navigation menu that adapts across desktop, tablet, and mobile screen sizes.
+- Added media queries for tablet (768px) and mobile (480px) breakpoints to ensure full responsiveness.
+- Applied a consistent colour scheme using Naqaa Foundation branding colours throughout all pages.
+- Added comprehensive typography styling including font-family, font-size, font-weight, and line-height for headings, paragraphs, navigation, and lists.
+- Styled buttons, forms, sections, and navigation elements to create a professional and cohesive appearance.
+- Added hover, focus, and active pseudo-class effects to all interactive elements to improve user interaction and accessibility.
+- Made all images fully responsive using srcset, sizes attributes, and max-width: 100% CSS properties.
+- Added additional images to the Home and About Us pages to improve visual appeal and engagement.
+- Implemented a scrolling donation announcement banner in the header using a CSS marquee-style keyframe animation.
+- Added a Google Maps embed to the Contact page to provide location information to users.
+- Expanded content across all five pages (Home, About, Services, Contact, Enquiry) for completeness and depth.
+- Improved accessibility through semantic HTML5 elements and descriptive alt text on all images.
+- Enhanced SEO using meta description, keywords, and author meta tags on all pages.
+- Tested and optimised the website layout and functionality across desktop, tablet, and mobile devices.
+- Documented all Part 1 corrections and Part 2 additions in this changelog for full version control transparency.
+
 ---
 
 ## Screenshots Evidence
@@ -132,18 +133,16 @@ To run this project locally:
 
 ---
 
-## References 
+## References
 
-Chaffey, D. (2022). Digital Business and E-Commerce Management. Pearson.
+Chaffey, D. (2022). *Digital Business and E-Commerce Management*. Pearson.
 
-Krug, S. (2014). Don’t Make Me Think: A Common Sense Approach to Web Usability. New Riders.
+Duckett, J. (2011). *HTML and CSS: Design and Build Websites*. John Wiley & Sons.
 
-Naqaa Foundation (2026). Official Website. Available at: https://www.naqaafoundation.org (Accessed: 29 May 2026).
+Krug, S. (2014). *Don't Make Me Think: A Common Sense Approach to Web Usability*. New Riders.
 
-W3Schools (2026). CSS Flexbox. Available at: https://www.w3schools.com/css/css3_flexbox.asp (Accessed: 29 May 2026).
+MDN Web Docs (2026). *CSS Flexible Box Layout*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout [Accessed: 29 May 2026].
 
-W3Schools (2026). CSS Media Queries. Available at: https://www.w3schools.com/css/css_rwd_mediaqueries.asp (Accessed: 29 May 2026).
+MDN Web Docs (2026). *CSS Media Queries*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries [Accessed: 29 May 2026].
 
-MDN Web Docs (2026). CSS Flexible Box Layout (Flexbox). Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/flexbox (Accessed: 29 May 2026).
-
-
+Naqaa Foundation (2026). *Official Website*. Available at: https://www.naqaafoundation.org [Accessed: 29 May 2026].
