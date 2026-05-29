@@ -57,8 +57,6 @@ NaqaaWebsite/
 │ script.js
 │
 └── images/
-|_logo1
-|_image1
 
 
 ---
@@ -81,11 +79,35 @@ NaqaaWebsite/
 ---
 
 ## Changelog
-- Initial project setup and folder structure created  
-- HTML pages created (index, about, services, enquiry, contact)  
-- Navigation menu implemented across all pages  
-- Basic content added to all pages  
-- README.md file created and structured  
+
+### Part 1 Feedback Improvements
+- Added homepage hero image.
+- Improved HTML comments for better code documentation.
+- Standardized page headings (h1, h2) across all pages.
+- Cleaned up inline styles to move to external CSS.
+
+### Part 2 Development
+- Created a comprehensive external stylesheet (`css/style.css`).
+- Implemented responsive navigation using Flexbox.
+- Added media queries for tablet (768px) and mobile (480px) layouts.
+- Applied consistent typography styling (font-family, size, weight).
+- Implemented responsive images with `max-width: 100%`.
+- Added interactive pseudo-classes for links and buttons.
+- Styled the enquiry form with focus states and hover effects.
+
+---
+
+## Screenshots Evidence
+*(Screenshots are located in the `screenshots/` folder)*
+
+### Desktop View
+![Desktop View](screenshots/desktop-home.png)
+
+### Tablet View
+![Tablet View](screenshots/tablet-home.png)
+
+### Mobile View
+![Mobile View](screenshots/mobile-home.png)
 
 ---
 
@@ -95,5 +117,9 @@ Chaffey, D. (2022). *Digital Business and E-Commerce Management*. Pearson.
 Krug, S. (2014). *Don’t Make Me Think: A Common Sense Approach to Web Usability*. New Riders.  
 
 Naqaa Foundation (2026). *Official Website*. Available at: http://www.naqaafoundation.org (Accessed: 20 April 2026).  
+
+W3Schools (2026). *CSS Flexbox*. Available at: https://www.w3schools.com/css/css3_flexbox.asp (Accessed: 29 May 2026).
+
+W3Schools (2026). *CSS Media Queries*. Available at: https://www.w3schools.com/css/css_rwd_mediaqueries.asp (Accessed: 29 May 2026).
 
 
