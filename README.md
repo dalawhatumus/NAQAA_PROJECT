@@ -43,7 +43,7 @@ This project focuses on the redesign and development of a professional website f
 
 ## Project Structure
 
-NaqaaWebsite/
+NAQAA_PROJECT/
 │
 ├── index.html
 ├── about.html
@@ -70,6 +70,14 @@ NaqaaWebsite/
 - Services (services.html)  
 - Enquiry (enquiry.html)  
 - Contact (contact.html)  
+
+---
+
+## Setup Instructions
+To run this project locally:
+1. Clone the repository: `git clone https://github.com/dalawhatumus/NAQAA_PROJECT.git`
+2. Navigate to the project folder.
+3. Open `index.html` in any modern web browser.
 
 ---
 
