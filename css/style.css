@@ -242,3 +242,58 @@ img {
     max-width: 100%;
     height: auto;
 }
+/* ================= DONATE ANIMATION BANNER ================= */
+
+.donate-banner {
+    width: 100%;
+    overflow: hidden;
+    background-color: #0aa6a6; /* Naqaa-style teal */
+    color: white;
+    padding: 10px 0;
+    position: relative;
+}
+
+.donate-banner p {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    animation: scrollText 12s linear infinite;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Animation */
+@keyframes scrollText {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+
+    .feature-image {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+    background-color: #f5f7f9;
+    border-radius: 10px;
+}
+
+.feature-image h2 {
+    margin-bottom: 10px;
+}
+
+.feature-image p {
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    color: #555;
+}
+
+.feature-img {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+/* ================= NAVIGATION BORDER FIX ================= */
+

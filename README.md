@@ -33,31 +33,34 @@ This project focuses on the redesign and development of a professional website f
 ---
 
 ## Technologies Used
-- HTML5 (structure)  
-- CSS3 (styling – to be implemented in Part 2)  
-- JavaScript (basic functionality – Part 3)  
-- Visual Studio Code (development environment)  
+- HTML5 (structure)
+- CSS3 (styling and responsive design)
+- JavaScript (basic functionality – Part 3)
+- Visual Studio Code (development environment)
 - GitHub (version control and hosting)  
 
 ---
 
 ## Project Structure
+
 NaqaaWebsite/
-│ index.html
-│ about.html
-│ services.html
-│ enquiry.html
-│ contact.html
-│ README.md
+│
+├── index.html
+├── about.html
+├── services.html
+├── enquiry.html
+├── contact.html
+├── README.md
 │
 ├── css/
-│ style.css
+│   └── style.css
 │
 ├── js/
-│ script.js
+│   └── script.js
 │
-└── images/
-
+├── images/
+│
+└── screenshots/
 
 ---
 
@@ -86,14 +89,15 @@ NaqaaWebsite/
 - Standardized page headings (h1, h2) across all pages.
 - Cleaned up inline styles to move to external CSS.
 
-### Part 2 Development
-- Created a comprehensive external stylesheet (`css/style.css`).
-- Implemented responsive navigation using Flexbox.
-- Added media queries for tablet (768px) and mobile (480px) layouts.
-- Applied consistent typography styling (font-family, size, weight).
-- Implemented responsive images with `max-width: 100%`.
-- Added interactive pseudo-classes for links and buttons.
-- Styled the enquiry form with focus states and hover effects.
+## Part 2 Development
+
+- Created external CSS stylesheet and linked it across all HTML pages to ensure consistent styling.
+- Implemented Flexbox-based navigation system for improved layout and usability.
+- Developed responsive design using media queries for tablet (768px) and mobile (480px) breakpoints.
+- Improved typography system using consistent font hierarchy (h1, h2, p).
+- Enhanced user interaction using CSS pseudo-classes (:hover, :focus, :active).
+- Optimised images for responsiveness using max-width: 100%.
+- Styled enquiry form with improved focus states and usability enhancements.
 
 ---
 
@@ -111,15 +115,18 @@ NaqaaWebsite/
 
 ---
 
-## References (Harvard Style)
-Chaffey, D. (2022). *Digital Business and E-Commerce Management*. Pearson.  
+## References 
 
-Krug, S. (2014). *Don’t Make Me Think: A Common Sense Approach to Web Usability*. New Riders.  
+Chaffey, D. (2022). Digital Business and E-Commerce Management. Pearson.
 
-Naqaa Foundation (2026). *Official Website*. Available at: http://www.naqaafoundation.org (Accessed: 20 April 2026).  
+Krug, S. (2014). Don’t Make Me Think: A Common Sense Approach to Web Usability. New Riders.
 
-W3Schools (2026). *CSS Flexbox*. Available at: https://www.w3schools.com/css/css3_flexbox.asp (Accessed: 29 May 2026).
+Naqaa Foundation (2026). Official Website. Available at: https://www.naqaafoundation.org (Accessed: 29 May 2026).
 
-W3Schools (2026). *CSS Media Queries*. Available at: https://www.w3schools.com/css/css_rwd_mediaqueries.asp (Accessed: 29 May 2026).
+W3Schools (2026). CSS Flexbox. Available at: https://www.w3schools.com/css/css3_flexbox.asp (Accessed: 29 May 2026).
+
+W3Schools (2026). CSS Media Queries. Available at: https://www.w3schools.com/css/css_rwd_mediaqueries.asp (Accessed: 29 May 2026).
+
+MDN Web Docs (2026). CSS Flexible Box Layout (Flexbox). Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/flexbox (Accessed: 29 May 2026).
 
 

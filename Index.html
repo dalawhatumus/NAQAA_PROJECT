@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Meta Data -->
+    <!-- ================= META DATA ================= -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Page Title -->
+    <!-- SEO -->
+    <meta name="description" content="Naqaa Foundation is a non-profit organisation in Cape Town focused on food relief, education support, and community development.">
+    <meta name="keywords" content="Naqaa Foundation, charity Cape Town, food relief, education support, volunteering South Africa">
+    <meta name="author" content="Naqaa Foundation">
+
+    <!-- PAGE TITLE -->
     <title>Naqaa Foundation | Home</title>
 
-    <!-- CSS File -->
+    <!-- CSS FILE -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- ================= HEADER SECTION ================= -->
+    <!-- ================= HEADER ================= -->
     <header>
-
+ <!-- ANIMATED DONATE BANNER -->
+<div class="donate-banner">
+    <p>Donate Today – Help Us Support Families in Need | Every Contribution Makes a Difference</p>
+</div>
         <!-- LOGO -->
-        <img src="images/logo1.png" alt="Naqaa Foundation Logo" class="logo">
+        <img src="images/logo1.png" alt="Naqaa Foundation official logo" class="logo">
 
-        <!-- TITLE -->
+        <!-- MAIN TITLE -->
+        
         <h1>Naqaa Foundation</h1>
 
-        <!-- SUBTITLE -->
-        <p class="subtitle">Empowering Communities Through Charity and Education</p>
+        <!-- TAGLINE -->
+        <p class="subtitle">Empowering Communities Through Charity, Education & Support</p>
 
-        <!-- NAVIGATION MENU -->
-        <nav>
+        <!-- NAVIGATION -->
+        <nav aria-label="Main Navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
                 <li><a href="enquiry.html">Enquiry</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -39,12 +48,18 @@
 
     </header>
 
-    <!-- ================= HERO IMAGE SECTION ================= -->
+    <!-- ================= HERO SECTION ================= -->
     <section class="hero">
-        <img src="images/image1.jpg" 
-             srcset="images/image1.jpg 1200w, images/image1.jpg 800w, images/image1.jpg 480w"
-             sizes="(max-width: 480px) 480px, (max-width: 768px) 800px, 1200px"
-             alt="Naqaa Foundation Community Support" class="hero-img">
+        <img 
+            src="images/image1.jpg"
+            srcset="
+                images/image1.jpg 1200w,
+                images/image1.jpg 800w,
+                images/image1.jpg 480w
+            "
+            sizes="(max-width: 768px) 100vw, 1200px"
+            alt="Volunteers from Naqaa Foundation distributing food to the community"
+            class="hero-img">
     </section>
 
     <!-- ================= MAIN CONTENT ================= -->
@@ -54,8 +69,9 @@
         <section>
             <h2>Welcome to Naqaa Foundation</h2>
             <p>
-                We are a non-profit organisation dedicated to uplifting communities through
-                food relief, education support, and social welfare programs.
+                Naqaa Foundation is a community-based non-profit organization established in 2018, dedicated to uplifting lives and strengthening communities through meaningful and sustainable initiatives. Our work spans feeding and welfare support, Islamic education, da’wah, and the establishment of daily and Jumu‘ah salah services, directly impacting hundreds of individuals and families each year.
+
+Through consistent service, trusted programs, and community-led efforts, we have become a vital support hub for those in need—providing meals, education, spiritual guidance, and safe spaces for worship and learning. Guided by compassion, accountability, and service excellence, Naqaa Foundation remains committed to building a stronger, more caring, and united community for generations to come.
             </p>
         </section>
 
@@ -63,8 +79,8 @@
         <section>
             <h2>Who We Are</h2>
             <p>
-                Naqaa Foundation is based in Cape Town and focuses on helping vulnerable communities
-                through structured outreach and sustainable development programs.
+                Based in Cape Town, we work closely with local communities, mosques, and volunteers
+                to provide consistent support to families in need.
             </p>
         </section>
 
@@ -72,9 +88,10 @@
         <section>
             <h2>What We Do</h2>
             <ul>
-                <li>Food Distribution Programs</li>
-                <li>Educational Support</li>
-                <li>Community Welfare Services</li>
+                <li>Food distribution and meal support programs</li>
+                <li>Educational assistance for learners</li>
+                <li>Community outreach and welfare projects</li>
+                <li>Volunteer and donation coordination</li>
             </ul>
         </section>
 
@@ -82,17 +99,31 @@
         <section>
             <h2>Get Involved</h2>
             <p>
-                Join us in making a difference. Volunteer, donate, or support our mission
-                to uplift communities in need.
+                Your support helps us continue our mission. Volunteer your time, donate resources,
+                or partner with us to make a lasting impact.
+            </p>
+            <p>
+                <a href="enquiry.html">Become a Volunteer or Sponsor →</a>
             </p>
         </section>
+        <!-- ================= FEATURE IMAGE ================= -->
+<section class="feature-image">
+    <h2>Our Impact in the Community</h2>
+    <p>
+        This image represents our ongoing outreach work and the support we provide to families and schoolers in need.
+    </p>
+
+    <img src="images/image4.jpeg" 
+         alt="Naqaa Foundation community outreach activity"
+         class="feature-img">
+</section>
 
     </main>
 
     <!-- ================= FOOTER ================= -->
     <footer>
         <p>&copy; 2026 Naqaa Foundation. All Rights Reserved.</p>
-        <p>Email: info@naqaafoundation.org</p>
+        <p>Email: info@naqaafoundation.org | Cape Town, South Africa</p>
     </footer>
 
 </body>
