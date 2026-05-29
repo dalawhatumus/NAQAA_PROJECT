@@ -92,21 +92,30 @@ To run this project locally:
 ## Changelog
 
 ### Part 1 Feedback Improvements
-- Added homepage hero image.
-- Improved HTML comments for better code documentation.
-- Standardized page headings (h1, h2) across all pages.
-- Cleaned up inline styles to move to external CSS.
+- Added hero image to homepage.
+- Improved HTML comments and code readability.
+- Standardised heading hierarchy across all pages.
+- Fixed navigation links between pages.
+- Moved styling from inline CSS to external stylesheet.
 
 ## Part 2 Development
 
-- Created external CSS stylesheet and linked it across all HTML pages to ensure consistent styling.
-- Implemented Flexbox-based navigation system for improved layout and usability.
-- Developed responsive design using media queries for tablet (768px) and mobile (480px) breakpoints.
-- Improved typography system using consistent font hierarchy (h1, h2, p).
-- Enhanced user interaction using CSS pseudo-classes (:hover, :focus, :active).
-- Optimised images for responsiveness using max-width: 100%.
-- Styled enquiry form with improved focus states and usability enhancements.
-
+- Created and linked an external stylesheet (style.css) to all website pages.
+- Implemented a responsive navigation menu across the website.
+- Added media queries for tablet (768px) and mobile (480px) screen sizes.
+- Applied a consistent colour scheme using Naqaa Foundation branding colours.
+- Added typography styling for headings, paragraphs, navigation menus, and lists.
+- Styled buttons, forms, sections, and navigation elements for a professional appearance.
+- Added hover, focus, and active pseudo-class effects to improve user interaction.
+- Made all images responsive using responsive image techniques and max-width properties.
+- Added additional images to the Home and About Us pages to improve visual appeal.
+- Implemented a scrolling donation announcement banner in the header section using a modern CSS animation.
+- Added a Google Maps location section to the Contact page.
+- Expanded content on the Home, About Us, Services, Contact, and Enquiry pages.
+- Improved accessibility through semantic HTML structure and descriptive alt text for images.
+- Enhanced SEO using meta descriptions, keywords, and author tags.
+- Tested and optimized the website for desktop, tablet, and mobile devices.
+- Corrected issues identified in Part 1 feedback and documented all improvements.
 ---
 
 ## Screenshots Evidence
