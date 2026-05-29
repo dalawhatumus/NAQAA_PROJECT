@@ -1,4 +1,6 @@
-# Naqaa Foundation Website
+Here's your complete, fully corrected README:
+
+markdown# Naqaa Foundation Website
 
 ## Student Information
 Name: Abdalla Abdalla  
@@ -8,7 +10,10 @@ Module: Web Development (Introduction) – WEDE5020
 ---
 
 ## Project Overview
-This project focuses on the redesign and development of a professional website for Naqaa Foundation, a non-profit organisation based in Cape Town. The aim is to improve the overall user experience, accessibility, and functionality of the existing website while maintaining a clean and structured design.
+This project focuses on the redesign and development of a professional website for 
+Naqaa Foundation, a non-profit organisation based in Cape Town. The aim is to improve 
+the overall user experience, accessibility, and functionality of the existing website 
+while maintaining a clean and structured design.
 
 ---
 
@@ -42,6 +47,7 @@ This project focuses on the redesign and development of a professional website f
 ---
 
 ## Project Structure
+
 NAQAA_PROJECT/
 │
 ├── index.html
@@ -91,31 +97,85 @@ To run this project locally:
 ## Changelog
 
 ### Part 1 Feedback Improvements
-- Part 1 feedback noted the homepage lacked visual engagement — added hero image (image1.jpg) to address this.
-- Part 1 feedback highlighted poor code readability — improved HTML comments and structured code sections for clarity.
-- Part 1 feedback identified inconsistent heading levels across pages — standardised heading hierarchy (h1 → h2 → h3) on all pages.
-- Part 1 feedback noted broken navigation links — fixed all internal navigation links to correctly connect all five pages.
-- Part 1 feedback flagged inline CSS as poor practice — moved all styling from inline attributes to the external stylesheet (style.css).
+
+- Part 1 feedback identified that wireframes were not submitted (0/2) —
+  wireframe sketches for all five pages have been designed and documented
+  as part of the Part 2 planning process.
+
+- Part 1 feedback identified that content research and sourcing was
+  insufficient (1/10) — comprehensive content has now been researched and
+  added across all five pages, including organisational history, program
+  descriptions, volunteer information, and contact details sourced from
+  Naqaa Foundation materials.
+
+- Part 1 feedback identified that no GitHub commits were made (0/5) —
+  the project has now been pushed to GitHub with 29 descriptive commits
+  documenting each stage of development.
+
+- Part 1 feedback identified that the README was incomplete (2/5) —
+  the README has been fully updated to include project overview, goals,
+  structure, sitemap, setup instructions, timeline, changelog, screenshots,
+  and references.
+
+- Part 1 feedback identified that no changelog was present (0/5) —
+  a detailed changelog has been added to the README documenting all
+  Part 1 corrections and Part 2 development work.
+
+- Part 1 feedback noted that code comments were insufficient (4/5) —
+  comments have been expanded across all HTML files to fully explain
+  each section and element of the code.
 
 ---
 
 ### Part 2 Development
-- Created and linked an external stylesheet (style.css) to all five website pages to ensure consistent styling.
-- Implemented a responsive navigation menu that adapts across desktop, tablet, and mobile screen sizes.
-- Added media queries for tablet (768px) and mobile (480px) breakpoints to ensure full responsiveness.
-- Applied a consistent colour scheme using Naqaa Foundation branding colours throughout all pages.
-- Added comprehensive typography styling including font-family, font-size, font-weight, and line-height for headings, paragraphs, navigation, and lists.
-- Styled buttons, forms, sections, and navigation elements to create a professional and cohesive appearance.
-- Added hover, focus, and active pseudo-class effects to all interactive elements to improve user interaction and accessibility.
-- Made all images fully responsive using srcset, sizes attributes, and max-width: 100% CSS properties.
-- Added additional images to the Home and About Us pages to improve visual appeal and engagement.
-- Implemented a scrolling donation announcement banner in the header using a CSS marquee-style keyframe animation.
-- Added a Google Maps embed to the Contact page to provide location information to users.
-- Expanded content across all five pages (Home, About, Services, Contact, Enquiry) for completeness and depth.
-- Improved accessibility through semantic HTML5 elements and descriptive alt text on all images.
-- Enhanced SEO using meta description, keywords, and author meta tags on all pages.
-- Tested and optimised the website layout and functionality across desktop, tablet, and mobile devices.
-- Documented all Part 1 corrections and Part 2 additions in this changelog for full version control transparency.
+
+- Created and linked an external stylesheet (style.css) to all five website
+  pages to ensure consistent styling across the entire project.
+
+- Implemented a responsive navigation menu that adapts seamlessly across
+  desktop, tablet, and mobile screen sizes.
+
+- Added media queries for tablet (768px) and mobile (480px) breakpoints
+  to ensure full responsiveness on all devices.
+
+- Applied a consistent colour scheme using Naqaa Foundation branding
+  colours throughout all pages.
+
+- Added comprehensive typography styling including font-family, font-size,
+  font-weight, and line-height for headings, paragraphs, navigation, and lists.
+
+- Styled buttons, forms, sections, and navigation elements to create a
+  professional and cohesive appearance across all pages.
+
+- Added hover, focus, and active pseudo-class effects to all interactive
+  elements to improve user interaction and accessibility.
+
+- Made all images fully responsive using srcset, sizes attributes, and
+  max-width: 100% CSS properties.
+
+- Added additional images to the Home and About Us pages to improve
+  visual appeal and community engagement.
+
+- Implemented a scrolling donation announcement banner in the header
+  using a CSS keyframe animation for modern visual impact.
+
+- Added a Google Maps embed to the Contact page to provide clear
+  location information to users.
+
+- Expanded content across all five pages (Home, About, Services, Contact,
+  Enquiry) for completeness, depth, and relevance.
+
+- Improved accessibility through semantic HTML5 elements and descriptive
+  alt text on all images.
+
+- Enhanced SEO using meta description, keywords, and author meta tags
+  on all pages.
+
+- Tested and optimised the website layout and functionality across
+  desktop, tablet, and mobile devices.
+
+- Documented all Part 1 corrections and Part 2 additions in this changelog
+  for full version control transparency.
 
 ---
 
@@ -139,10 +199,16 @@ Chaffey, D. (2022). *Digital Business and E-Commerce Management*. Pearson.
 
 Duckett, J. (2011). *HTML and CSS: Design and Build Websites*. John Wiley & Sons.
 
-Krug, S. (2014). *Don't Make Me Think: A Common Sense Approach to Web Usability*. New Riders.
+Krug, S. (2014). *Don't Make Me Think: A Common Sense Approach to Web Usability*. 
+New Riders.
 
-MDN Web Docs (2026). *CSS Flexible Box Layout*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout [Accessed: 29 May 2026].
+MDN Web Docs (2026). *CSS Flexible Box Layout*. Available at: 
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout 
+[Accessed: 29 May 2026].
 
-MDN Web Docs (2026). *CSS Media Queries*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries [Accessed: 29 May 2026].
+MDN Web Docs (2026). *CSS Media Queries*. Available at: 
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries 
+[Accessed: 29 May 2026].
 
-Naqaa Foundation (2026). *Official Website*. Available at: https://www.naqaafoundation.org [Accessed: 29 May 2026].
+Naqaa Foundation (2026). *Official Website*. Available at: 
+https://www.naqaafoundation.org [Accessed: 29 May 2026].
