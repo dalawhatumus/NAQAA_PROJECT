@@ -1,6 +1,4 @@
-Here's your complete, fully corrected README:
-
-markdown# Naqaa Foundation Website
+# Naqaa Foundation Website
 
 ## Student Information
 Name: Abdalla Abdalla  
