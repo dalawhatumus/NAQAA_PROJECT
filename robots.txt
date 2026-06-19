@@ -1,0 +1,12 @@
+# robots.txt for Naqaa Foundation Website
+# Instructs search engine crawlers on which pages to index
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private directories (none currently, but good practice)
+Disallow: /screenshots/
+Disallow: /images/
+
+# Sitemap location
+Sitemap: https://dalawhatumus.github.io/NAQAA_PROJECT/sitemap.xml
