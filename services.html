@@ -1,156 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- ================= META DATA ================= -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Naqaa Foundation provides food relief, education support, and community welfare services in Cape Town to help vulnerable communities.">
-    <meta name="keywords" content="Naqaa Foundation services, food relief Cape Town, charity South Africa, education support NGO">
+    <!-- ================= SEO ================= -->
+    <meta name="description" content="Explore Naqaa Foundation's programs including food distribution, education support, community welfare, and volunteer opportunities in Cape Town, South Africa.">
+    <meta name="keywords" content="food distribution Cape Town, education support non-profit, community welfare South Africa, volunteer Cape Town, feeding scheme, NGO services">
     <meta name="author" content="Naqaa Foundation">
 
-    <title>Naqaa Foundation | Services</title>
+    <!-- ================= OPEN GRAPH ================= -->
+    <meta property="og:title" content="Our Services | Naqaa Foundation – Programs and Initiatives">
+    <meta property="og:description" content="Naqaa Foundation runs food relief, education support, community welfare, and volunteer programs in Cape Town. Find out how we can help or how you can help us.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dalawhatumus.github.io/NAQAA_PROJECT/services.html">
 
+    <!-- ================= PAGE TITLE ================= -->
+    <title>Our Services | Naqaa Foundation – Programs and Initiatives</title>
+
+    <!-- ================= CSS ================= -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<!-- ================= HEADER ================= -->
-<header>
+    <!-- ================= HEADER ================= -->
+    <header>
 
-    <img src="images/logo1.png" alt="Naqaa Foundation official logo" class="logo">
+        <!-- LOGO -->
+        <img src="images/logo1.png"
+             alt="Naqaa Foundation official logo"
+             class="logo">
 
-    <h1>Naqaa Foundation</h1>
+        <!-- MAIN TITLE -->
+        <h1>Naqaa Foundation</h1>
 
-    <p class="subtitle">Empowering Communities Through Charity, Education & Sustainable Support</p>
+        <!-- TAGLINE -->
+        <p class="subtitle">Empowering Communities Through Charity, Education & Sustainable Support</p>
 
-    <nav aria-label="Main Navigation">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html" class="active">Our Services</a></li>
-            <li><a href="enquiry.html">Enquiry</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+        <!-- NAVIGATION -->
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html" class="active">Our Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
-</header>
+    </header>
 
-<!-- ================= MAIN CONTENT ================= -->
-<main>
+    <!-- ================= MAIN CONTENT ================= -->
+    <main>
 
-    <!-- INTRO -->
-    <section>
-        <h2>Our Services</h2>
+        <!-- ================= PAGE INTRO ================= -->
+        <section>
+            <h2>Our Services</h2>
+            <p>
+                Naqaa Foundation provides structured community development programs designed to respond
+                to urgent needs while also creating long-term solutions for poverty, education gaps,
+                and social challenges in local communities across Cape Town.
+            </p>
+            <p>
+                Our services are built around three main goals: reducing hunger, improving access to
+                education, and strengthening community resilience through sustainable support systems.
+            </p>
+        </section>
+
+        <!-- ================= SEARCH FEATURE ================= -->
+        <section class="search-section">
+            <h2>Find a Service</h2>
+            <p>Type below to search and filter our services instantly.</p>
+            <input type="text"
+                   id="serviceSearch"
+                   class="search-input"
+                   placeholder="e.g. food, education, volunteer..."
+                   aria-label="Search services">
+        </section>
+
+        <!-- ================= SERVICE CARDS (Dynamic Content) ================= -->
+        <section>
+            <h2>All Programs & Initiatives</h2>
+            <div class="services-grid" id="servicesGrid">
+
+                <div class="service-card" data-service="food distribution meals parcels hunger relief feeding">
+                    <h3>Food Relief</h3>
+                    <p>
+                        Weekly food parcels and hot meals distributed to families facing food insecurity
+                        across Cape Town. Emergency food support also available during crisis periods.
+                    </p>
+                </div>
+
+                <div class="service-card" data-service="education school learners tutoring stationery academic support">
+                    <h3>Education Support</h3>
+                    <p>
+                        Stationery, tutoring, school fee assistance, and mentorship programs aimed at
+                        improving learner performance and reducing dropout rates in the Western Cape.
+                    </p>
+                </div>
+
+                <div class="service-card" data-service="community welfare clothing household emergency outreach drives">
+                    <h3>Community Welfare</h3>
+                    <p>
+                        Clothing drives, household support, and emergency welfare initiatives to restore
+                        dignity and provide immediate relief to vulnerable individuals and families.
+                    </p>
+                </div>
+
+                <div class="service-card" data-service="volunteer volunteers time skills community events fundraising">
+                    <h3>Volunteer Programs</h3>
+                    <p>
+                        Join our team on the ground. Volunteers assist in food distribution, event planning,
+                        outreach programs, fundraising, and administrative support across Cape Town.
+                    </p>
+                </div>
+
+                <div class="service-card" data-service="sponsor donation donate fund business support financial">
+                    <h3>Sponsorship & Donations</h3>
+                    <p>
+                        Support our programs financially or in-kind. Every contribution funds food programs,
+                        educational materials, and community services that reach hundreds of families monthly.
+                    </p>
+                </div>
+
+                <div class="service-card" data-service="spiritual islamic salah jumu'ah dawah education mosque prayer">
+                    <h3>Spiritual Programs</h3>
+                    <p>
+                        Daily and Jumu'ah salah services, da'wah initiatives, and Islamic education programs
+                        providing spiritual support and guidance to the community.
+                    </p>
+                </div>
+
+                <div class="service-card" data-service="youth skills training development future opportunities mentorship">
+                    <h3>Youth Development</h3>
+                    <p>
+                        Skills training, career guidance, and mentorship programs designed to prepare
+                        young people for future opportunities and build community leadership capacity.
+                    </p>
+                </div>
+
+                <div class="service-card" data-service="emergency crisis hardship support urgent help relief">
+                    <h3>Emergency Relief</h3>
+                    <p>
+                        Rapid response support for families experiencing sudden hardship, unemployment,
+                        or crisis situations — providing immediate food, clothing, and welfare assistance.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- NO RESULTS MESSAGE (injected by JS) -->
+            <p id="no-results" style="display:none; text-align:center; color:#888; padding:20px;">
+                No services found. Try a different search term.
+            </p>
+
+        </section>
+
+        <!-- ================= ACCORDION (Interactive Element) ================= -->
+        <section>
+            <h2>Frequently Asked Questions</h2>
+            <p>Click a question below to expand the answer.</p>
+
+            <div class="accordion">
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        How do I apply for food relief support?
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            You can apply by submitting an enquiry through our
+                            <a href="enquiry.html">Enquiry page</a> or by contacting us
+                            directly via phone or email. Our team will assess your situation
+                            and connect you with the appropriate program.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        How can I volunteer with Naqaa Foundation?
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            Visit our <a href="enquiry.html">Enquiry page</a>, select
+                            "Volunteer" as your enquiry type, and complete the form.
+                            Our volunteer coordinator will reach out to discuss available
+                            roles and your availability.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        Can businesses sponsor Naqaa Foundation programs?
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            Yes — we welcome corporate and individual sponsorships.
+                            Sponsorship packages are available for food programs, education
+                            drives, and community events. Contact us via our
+                            <a href="contact.html">Contact page</a> for a sponsorship proposal.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        Where does Naqaa Foundation operate?
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            Our primary base is in Athlone, Cape Town. We run outreach programs
+                            across multiple communities in the Western Cape including Silvertown,
+                            Mitchell's Plain, and surrounding areas.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        How are donations used?
+                    </button>
+                    <div class="accordion-content">
+                        <p>
+                            All donations go directly to program costs — food parcels,
+                            educational supplies, and community event expenses.
+                            We maintain full transparency and accountability in how
+                            funds are managed and distributed.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= CALL TO ACTION ================= -->
+        <section class="cta-section">
+            <h2>Make a Difference Today</h2>
+            <p>
+                Join us in building stronger, more supportive communities. Whether you volunteer,
+                donate, or partner with us — your involvement creates real and lasting change.
+            </p>
+            <div class="cta-buttons">
+                <a href="enquiry.html"
+                   class="submit-btn"
+                   style="display:inline-block; width:auto; padding:12px 30px;">
+                    Get Involved →
+                </a>
+                <a href="contact.html" class="cta-secondary">
+                    Contact Us →
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>&copy; 2026 Naqaa Foundation. All Rights Reserved.</p>
         <p>
-            Naqaa Foundation provides structured community development programs designed to respond to urgent needs
-            while also creating long-term solutions for poverty, education gaps, and social challenges in local communities.
+            Email: <a href="mailto:info@naqaafoundation.org">info@naqaafoundation.org</a>
+            | Cape Town, South Africa
         </p>
-    </section>
+    </footer>
 
-    <!-- OVERVIEW -->
-    <section>
-        <h2>What We Aim to Achieve</h2>
-        <p>
-            Our services are built around three main goals: reducing hunger, improving access to education,
-            and strengthening community resilience through sustainable support systems.
-        </p>
-    </section>
-
-    <!-- FOOD RELIEF -->
-    <section>
-        <h2>Food Relief Programs</h2>
-        <p>
-            We run weekly and emergency food distribution programs to support families facing food insecurity.
-            This includes food parcels, hot meal services, and support during crisis periods such as unemployment
-            or natural hardship.
-        </p>
-        <p>
-            Our goal is to ensure that no individual or family in our outreach areas is left without access to basic nutrition.
-        </p>
-    </section>
-
-    <!-- EDUCATION -->
-    <section>
-        <h2>Education Support</h2>
-        <p>
-            Education is one of our core focus areas. We provide school supplies, academic assistance, and mentorship
-            programs aimed at improving learner performance and reducing dropout rates.
-        </p>
-        <p>
-            We also support youth development through skills training, tutoring sessions, and guidance programs
-            that prepare learners for future opportunities.
-        </p>
-    </section>
-
-    <!-- COMMUNITY WELFARE -->
-    <section>
-        <h2>Community Welfare Programs</h2>
-        <p>
-            Our welfare initiatives address clothing shortages, household needs, and emergency support situations.
-            We regularly organise clothing drives, seasonal aid campaigns, and support for vulnerable individuals.
-        </p>
-        <p>
-            These programs are designed to restore dignity and provide immediate relief where it is needed most.
-        </p>
-    </section>
-
-    <!-- VOLUNTEERING -->
-    <section>
-        <h2>Volunteer Opportunities</h2>
-        <p>
-            Volunteers play a key role in our organisation. We welcome students, community members, and professionals
-            who want to contribute their time and skills.
-        </p>
-        <p>
-            Volunteers assist in food distribution, event planning, outreach programs, fundraising, and administrative tasks.
-        </p>
-    </section>
-
-    <!-- DONATIONS -->
-    <section>
-        <h2>Sponsorship & Donations</h2>
-        <p>
-            We rely on the support of individuals, businesses, and organisations to fund our projects.
-            Donations are used directly for food programs, educational materials, and community support services.
-        </p>
-        <p>
-            Every contribution, no matter how small, helps us reach more families and expand our impact.
-        </p>
-    </section>
-
-    <!-- IMPACT -->
-    <section>
-        <h2>Our Impact</h2>
-        <p>
-            Through continuous community engagement, Naqaa Foundation has been able to support hundreds of families
-            with food relief, educational assistance, and welfare support.
-        </p>
-        <p>
-            Our work continues to grow through partnerships, volunteers, and community trust.
-        </p>
-    </section>
-
-    <!-- CALL TO ACTION -->
-    <section>
-        <h2>Make a Difference Today</h2>
-        <p>
-            Join us in building stronger, more supportive communities. Whether you volunteer, donate, or partner with us,
-            your involvement creates real change.
-        </p>
-
-        <p>
-            <a href="enquiry.html">Get Involved →</a>
-        </p>
-    </section>
-
-</main>
-
-<!-- ================= FOOTER ================= -->
-<footer>
-    <p>&copy; 2026 Naqaa Foundation. All Rights Reserved.</p>
-    <p>Email: info@naqaafoundation.org | Cape Town, South Africa</p>
-</footer>
+    <!-- ================= JAVASCRIPT ================= -->
+    <script src="js/script.js"></script>
 
 </body>
 </html>
