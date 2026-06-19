@@ -315,7 +315,7 @@ To run this project locally:
 
 ### Desktop View
 ![Desktop View](screenshots/desktop-home.png)
-![Desktop View](screenshots/desktop-desktop-home.png1.png)
+![Desktop View](screenshots/desktop-home.png1)
 
 ### Tablet View
 ![Tablet View](screenshots/tablet-home.png)
@@ -323,7 +323,7 @@ To run this project locally:
 
 ### Mobile View
 ![Mobile View](screenshots/mobile-home.png)
-![Mobile View](screenshots/mobile-homepng1.png)
+![Mobile View](screenshots/mobile-home1.png)
 
 ---
 
