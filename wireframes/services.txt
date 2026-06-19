@@ -1,21 +1,30 @@
 ------------------------------------------------
-| LOGO + Navigation                            |
+| LOGO + NAVIGATION                            |
 ------------------------------------------------
-| Our Services                                 |
+
+| OUR SERVICES TITLE                           |
 ------------------------------------------------
-| Food Relief Programs                         |
+
+| SEARCH BAR                                   |
+| Search Services                              |
 ------------------------------------------------
+
+| SERVICE CARDS                                |
+| Food Relief                                  |
 | Education Support                            |
-------------------------------------------------
-| Community Welfare                            |
-------------------------------------------------
+| Welfare Projects                             |
 | Volunteer Opportunities                      |
 ------------------------------------------------
-| Sponsorship & Donations                      |
+
+| ACCORDION SECTION                            |
+| Frequently Asked Questions                   |
+| + Question                                   |
+|   Answer expands                             |
 ------------------------------------------------
-| Service Image                                |
+
+| CALL TO ACTION                               |
+| Get Involved Button                          |
 ------------------------------------------------
-| Call To Action                               |
-------------------------------------------------
-| Footer                                       |
+
+| FOOTER                                       |
 ------------------------------------------------
