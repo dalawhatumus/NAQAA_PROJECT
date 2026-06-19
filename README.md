@@ -315,15 +315,15 @@ To run this project locally:
 
 ### Desktop View
 ![Desktop View](screenshots/desktop-home.png)
-![Desktop View](screenshots/desktop-home1.png)
+![Desktop View](screenshots/desktop-homepng1.png)
 
 ### Tablet View
 ![Tablet View](screenshots/tablet-home.png)
-![Tablet View](screenshots/tablet-home1.png)
+![Tablet View](.tablet-home.png1.png)
 
 ### Mobile View
 ![Mobile View](screenshots/mobile-home.png)
-![Mobile View](screenshots/mobile-home1.png)
+![Mobile View](screenshots/mobile-homepng1.png)
 
 ---
 
