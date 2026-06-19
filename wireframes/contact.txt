@@ -1,17 +1,29 @@
 ------------------------------------------------
-| LOGO + Navigation                            |
+| LOGO + NAVIGATION                            |
 ------------------------------------------------
-| Contact Us                                   |
+
+| CONTACT US                                   |
 ------------------------------------------------
-| Contact Information                          |
+
+| CONTACT INFORMATION                          |
 | Email                                        |
 | Phone                                        |
+| Address                                      |
 ------------------------------------------------
-| Office Address                               |
+
+| INTERACTIVE MAP                              |
+| Leaflet Map Integration                      |
 ------------------------------------------------
-| Operating Hours                              |
+
+| CONTACT FORM                                 |
+| Name                                         |
+| Email                                        |
+| Message Type                                 |
+| Message                                      |
 ------------------------------------------------
-| Google Maps Section                          |
+
+| SEND MESSAGE BUTTON                          |
 ------------------------------------------------
-| Footer                                       |
+
+| FOOTER                                       |
 ------------------------------------------------
