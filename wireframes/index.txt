@@ -3,23 +3,35 @@
 | Naqaa Foundation                             |
 | Navigation Menu                              |
 ------------------------------------------------
-| HERO IMAGE                                   |
+
+| HERO SECTION                                 |
+| Large Image                                  |
+| Welcome Message                              |
+| Short Introduction                           |
+| [Get Involved Button]                        |
 ------------------------------------------------
-| Welcome to Naqaa Foundation                  |
-| Paragraph                                    |
-------------------------------------------------
+
+| ABOUT PREVIEW                                |
 | Who We Are                                   |
-| Paragraph                                    |
+| Short Description                            |
+| [Learn More Button]                          |
 ------------------------------------------------
-| What We Do                                   |
-| • Food Relief                                |
-| • Education Support                          |
-| • Welfare Projects                           |
+
+| OUR SERVICES                                 |
+| Food Relief                                  |
+| Education Support                            |
+| Community Welfare                            |
+| Volunteer Support                            |
 ------------------------------------------------
-| Featured Community Image                     |
+
+| IMPACT SECTION                               |
+| Statistics / Community Images                |
 ------------------------------------------------
-| Get Involved                                 |
-| Button                                       |
+
+| DONATION / CALL TO ACTION                    |
+| Support Our Mission                          |
+| [Donate Button]                              |
 ------------------------------------------------
-| Footer                                       |
+
+| FOOTER                                       |
 ------------------------------------------------
