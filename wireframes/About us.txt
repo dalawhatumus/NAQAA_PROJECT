@@ -1,23 +1,41 @@
 ------------------------------------------------
-| LOGO + Navigation                            |
+| LOGO + NAVIGATION                            |
 ------------------------------------------------
-| About Naqaa Foundation                       |
+
+| ABOUT NAQAA FOUNDATION                       |
 | Introduction                                 |
 ------------------------------------------------
-| Our Story                                    |
+
+| OUR STORY                                    |
+| Organisation Background                      |
 ------------------------------------------------
-| Our Mission                                  |
+
+| OUR MISSION                                  |
+| Mission Statement                            |
 ------------------------------------------------
-| Our Vision                                   |
+
+| OUR VISION                                   |
+| Future Goals                                 |
 ------------------------------------------------
-| Image                                        |
+
+| IMAGE / GALLERY SECTION                      |
+| Community Photos                             |
 ------------------------------------------------
-| Core Values                                  |
-| List                                         |
+
+| VIDEO SECTION                                |
+| "Watch Our Story"                            |
+| YouTube Embedded Video                      |
 ------------------------------------------------
-| Our Impact                                   |
+
+| CORE VALUES                                  |
+| • Compassion                                 |
+| • Community                                  |
+| • Service                                    |
 ------------------------------------------------
-| Join Our Mission                             |
+
+| FAQ ACCORDION                                |
+| Question + Expandable Answers                |
 ------------------------------------------------
-| Footer                                       |
+
+| FOOTER                                       |
 ------------------------------------------------
