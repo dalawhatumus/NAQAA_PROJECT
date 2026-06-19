@@ -5,105 +5,240 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO -->
-    <meta name="description" content="Contact Naqaa Foundation in Cape Town for information on food relief, education support, and community volunteering.">
-    <meta name="keywords" content="contact Naqaa Foundation, charity Cape Town, food relief South Africa, volunteer outreach">
+    <!-- ================= SEO ================= -->
+    <meta name="description" content="Contact Naqaa Foundation in Cape Town for general enquiries, partnerships, media requests, or to find out how to get involved with our community programs.">
+    <meta name="keywords" content="contact Naqaa Foundation, Cape Town non-profit contact, reach us, organisation contact details, volunteer enquiry South Africa">
     <meta name="author" content="Naqaa Foundation">
 
-    <!-- PAGE TITLE -->
-    <title>Naqaa Foundation | Contact</title>
+    <!-- ================= OPEN GRAPH ================= -->
+    <meta property="og:title" content="Contact Us | Naqaa Foundation">
+    <meta property="og:description" content="Get in touch with Naqaa Foundation in Cape Town. We welcome enquiries about volunteering, donations, partnerships, and media.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dalawhatumus.github.io/NAQAA_PROJECT/contact.html">
 
-    <!-- CSS FILE -->
+    <!-- ================= PAGE TITLE ================= -->
+    <title>Contact Us | Naqaa Foundation – Get in Touch</title>
+
+    <!-- ================= CSS ================= -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- ================= LEAFLET MAP CSS ================= -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <!-- ================= EMAILJS ================= -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
 
 <body>
 
-<!-- ================= HEADER ================= -->
-<header>
+    <!-- ================= HEADER ================= -->
+    <header>
 
-    <img src="images/logo1.png" alt="Naqaa Foundation Logo" class="logo">
+        <!-- LOGO -->
+        <img src="images/logo1.png"
+             alt="Naqaa Foundation official logo"
+             class="logo">
 
-    <h1>Naqaa Foundation</h1>
+        <!-- MAIN TITLE -->
+        <h1>Naqaa Foundation</h1>
 
-    <p class="subtitle">Empowering Communities Through Charity and Education</p>
+        <!-- TAGLINE -->
+        <p class="subtitle">Empowering Communities Through Charity, Education & Human Dignity</p>
 
-    <nav aria-label="Main Navigation">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Our Services</a></li>
-            <li><a href="enquiry.html">Enquiry</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
-    </nav>
+        <!-- NAVIGATION -->
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
 
-</header>
+    </header>
 
-<!-- ================= MAIN CONTENT ================= -->
-<main>
+    <!-- ================= MAIN CONTENT ================= -->
+    <main>
 
-    <!-- INTRO -->
-    <section>
-        <h2>Contact Us</h2>
+        <!-- ================= PAGE INTRO ================= -->
+        <section>
+            <h2>Contact Us</h2>
+            <p>
+                We are here to help and answer any questions you may have about our programs,
+                volunteering opportunities, donations, or partnerships. Fill in the form below
+                or reach us directly using the contact details provided.
+            </p>
+        </section>
+
+        <!-- ================= CONTACT INFO + HOURS GRID ================= -->
+        <section>
+            <div class="contact-grid">
+
+                <!-- CONTACT DETAILS -->
+                <div class="contact-details">
+                    <h2>Contact Information</h2>
+                    <p>📧 <strong>Email:</strong>
+                        <a href="mailto:info@naqaafoundation.org">info@naqaafoundation.org</a>
+                    </p>
+                    <p>📞 <strong>Phone:</strong>
+                        <a href="tel:+27781624041">+27 78 162 4041</a>
+                    </p>
+                    <p>📍 <strong>Address:</strong>
+                        13 Blossom Street, Silvertown, Athlone, Cape Town, 7764
+                    </p>
+
+                    <h2 style="margin-top: 25px;">Operating Hours</h2>
+                    <table class="hours-table">
+                        <tr>
+                            <td>Monday – Friday</td>
+                            <td>09:00 – 17:00</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>09:00 – 13:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- SOCIAL LINKS -->
+                <div class="contact-social">
+                    <h2>Follow Us</h2>
+                    <p>Stay connected and follow our latest updates on social media.</p>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://www.facebook.com/naqaafoundation"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                 Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/naqaafoundation"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                 Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.naqaafoundation.org"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                 Official Website
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= CONTACT FORM ================= -->
+        <section class="form-section">
+            <h2>Send Us a Message</h2>
+            <p>Complete the form below and we will respond within 2–3 business days.</p>
+
+            <form id="contactForm" novalidate>
+
+                <!-- FULL NAME -->
+                <div class="form-group">
+                    <label for="con-name">Full Name *</label>
+                    <input type="text"
+                           id="con-name"
+                           name="from_name"
+                           placeholder="e.g. Ahmed Smith"
+                           required>
+                    <span class="error-msg" id="con-name-error"></span>
+                </div>
+
+                <!-- EMAIL -->
+                <div class="form-group">
+                    <label for="con-email">Email Address *</label>
+                    <input type="email"
+                           id="con-email"
+                           name="from_email"
+                           placeholder="e.g. ahmed@email.com"
+                           required>
+                    <span class="error-msg" id="con-email-error"></span>
+                </div>
+
+                <!-- PHONE -->
+                <div class="form-group">
+                    <label for="con-phone">Phone Number (optional)</label>
+                    <input type="tel"
+                           id="con-phone"
+                           name="phone"
+                           placeholder="e.g. 0712345678">
+                </div>
+
+                <!-- MESSAGE TYPE -->
+                <div class="form-group">
+                    <label for="con-type">Message Type *</label>
+                    <select id="con-type" name="message_type" required>
+                        <option value="">-- Select a type --</option>
+                        <option value="General Enquiry">General Enquiry</option>
+                        <option value="Partnership">Partnership</option>
+                        <option value="Media">Media</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Donation">Donation</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <span class="error-msg" id="con-type-error"></span>
+                </div>
+
+                <!-- MESSAGE -->
+                <div class="form-group">
+                    <label for="con-message">Your Message *</label>
+                    <textarea id="con-message"
+                              name="message"
+                              rows="6"
+                              placeholder="Type your message here (minimum 10 characters)..."
+                              required></textarea>
+                    <span class="error-msg" id="con-message-error"></span>
+                </div>
+
+                <!-- SUBMIT -->
+                <button type="submit" class="submit-btn">Send Message</button>
+
+            </form>
+
+            <!-- SUCCESS / ERROR RESPONSE -->
+            <div id="contact-response" class="response-box"></div>
+
+        </section>
+
+        <!-- ================= INTERACTIVE MAP ================= -->
+        <section class="map-section">
+            <h2>Find Us</h2>
+            <p>We are located in Silvertown, Athlone, Cape Town. Click the map to interact.</p>
+            <div id="map"></div>
+            <p style="margin-top: 12px;">
+                <a href="https://www.google.com/maps/dir//13+Blossom+St,+Silvertown,+Cape+Town,+7764"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                     Get Directions on Google Maps →
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>&copy; 2026 Naqaa Foundation. All Rights Reserved.</p>
         <p>
-            We are here to help and answer any questions about our programs,
-            volunteering opportunities, or donations.
+            Email: <a href="mailto:info@naqaafoundation.org">info@naqaafoundation.org</a>
+            | Cape Town, South Africa
         </p>
-    </section>
+    </footer>
 
-    <!-- CONTACT INFO -->
-    <section>
-        <h2>Contact Information</h2>
-
-        <p><strong>Email:</strong> info@naqaafoundation.org</p>
-        <p><strong>Phone:</strong> +27 78 162 4041</p>
-    </section>
-
-    <!-- OFFICE -->
-    <section>
-        <h2>Office Location</h2>
-        <p>Athlone Community Outreach Office, Cape Town, South Africa</p>
-    </section>
-
-    <!-- HOURS -->
-    <section>
-        <h2>Operating Hours</h2>
-        <p>Monday - Friday: 09:00 - 17:00</p>
-        <p>Saturday: 09:00 - 13:00</p>
-        <p>Sunday: Closed</p>
-    </section>
-
-    <!-- GOOGLE MAPS -->
-    <section>
-        <h2>Find Us on Google Maps</h2>
-
-        <p>Visit us at our Silvertown outreach location.</p>
-
-        <iframe
-            src="https://www.google.com/maps?q=Naqaa%20foundation%2013%20Blossom%20St%20Silvertown%20Cape%20Town%207764&output=embed"
-            width="100%"
-            height="350"
-            style="border:0; border-radius: 8px;"
-            allowfullscreen=""
-            loading="lazy">
-        </iframe>
-
-        <p>
-            <a href="https://www.google.com/maps/dir//Naqaa+foundation,+13+Blossom+St,+Silvertown,+Cape+Town,+7764/"
-               target="_blank">
-               Get Directions
-            </a>
-        </p>
-    </section>
-
-</main>
-
-<!-- ================= FOOTER ================= -->
-<footer>
-    <p>&copy; 2026 Naqaa Foundation. All Rights Reserved.</p>
-    <p>Email: info@naqaafoundation.org</p>
-</footer>
+    <!-- ================= JAVASCRIPT ================= -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
